@@ -1,0 +1,30 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.yPadding {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.container-header {
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+box-shadow: rgba(149, 157, 165, 0.278) 0px 8px 24px;
+}
+
+.button-top-right>button {
+    color: white;
+    margin: 0 15px;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 25px;
+    padding: 0.7rem 2rem;
+    box-sizing: border-box;
+    border: 1px solid red;
+    background-color: orangered;
+}
+
